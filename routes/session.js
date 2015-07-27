@@ -1,6 +1,7 @@
 var router = require('express').Router()
 
 var users = require('../services/users')
+var feed = require('../services/feed')
 var requireUser = require('../middleware/require_user')
 
 
